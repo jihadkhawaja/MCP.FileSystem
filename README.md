@@ -44,7 +44,7 @@ A comprehensive **Model Context Protocol (MCP) Server** that provides powerful f
 
 ### Building from Source
 ```bash
-git clone https://github.com/YOUR_USERNAME/MCP.FileSystem.git
+git clone https://github.com/jihadkhawaja/MCP.FileSystem.git
 cd MCP.FileSystem
 dotnet build
 ```
@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ## Support
 
-For questions, issues, or contributions, please visit the [GitHub repository](https://github.com/YOUR_USERNAME/MCP.FileSystem) or open an issue.
+For questions, issues, or contributions, please visit the [GitHub repository](https://github.com/jihadkhawaja/MCP.FileSystem) or open an issue.
 
 ---
 
