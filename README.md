@@ -69,9 +69,9 @@ Add to your Claude Desktop configuration:
 ```json
 {
   "mcpServers": {
-    "filesystem": {
+    "MCP.FileSystem": {
       "command": "dotnet",
-      "args": ["run", "--project", "path/to/MCP.FileSystem"]
+      "args": ["run", "--project", "path/to/MCP.FileSystem.csproj"]
     }
   }
 }
@@ -80,14 +80,16 @@ Add to your Claude Desktop configuration:
 #### VS Code with MCP Extension
 Configure in your MCP settings:
 ```json
-{
-  "mcp.servers": [
-    {
-      "name": "filesystem",
-      "command": "dotnet",
-      "args": ["run", "--project", "path/to/MCP.FileSystem"]
-    }
-  ]
+"servers": {
+  "MCP.FileSystem": {
+    "type": "stdio",
+    "command": "dotnet",
+    "args": [
+      "run",
+      "--project",
+      "path/to/MCP.FileSystem.csproj"
+    ]
+  }
 }
 ```
 
